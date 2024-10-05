@@ -101,7 +101,7 @@ button {
   z-index: 3;
 }
 .companys--container-open {
-  max-height: 600px;
+  max-height: none;
 }
 
 .companys__item.swiper-slide {

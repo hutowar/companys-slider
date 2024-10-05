@@ -30,6 +30,7 @@ var swiper = new Swiper(".mySwiper", {
 // Read-more button toggle
 
 const crmEls = document.querySelectorAll('[class*="read-more"]');
+console.log(crmEls);
 crmEls.forEach(crmEl => {
   crmEl.addEventListener("click", function (e) {
     crmEl.classList.toggle("read-more--open");
